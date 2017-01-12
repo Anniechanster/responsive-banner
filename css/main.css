@@ -1,0 +1,72 @@
+html {
+  font-family: Georgia, serif;
+  color: #efefef;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.banner {
+  overflow: hidden;
+}
+
+.banner-content {
+  width: 100%;
+  bottom: 0;
+  background-color: #495562;
+}
+
+.btn {
+  border-color: #fff;
+  color: #fff;
+}
+
+.btn-ghost {
+  text-decoration: none;
+  border-color: #97a49b;
+  color: #fff;
+}
+
+.btn-ghost:hover {
+  background-color: #fff;
+  border-color: #fff;
+  color: #000;
+}
+
+@media only screen and (min-width:38em) {
+
+  .banner-btn {
+    position: relative;
+  }
+
+  .btn {
+    border-color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media only screen and (min-width:60em) {
+
+  .banner {
+    position: relative;
+    max-height: 500px;
+  }
+
+  .banner-content {
+    position: absolute;
+    background-color: transparent;
+  }
+
+  .btn-ghost {
+    border-color: #fff;
+  }
+
+  .para {
+    max-height: 50em;
+  }
+}

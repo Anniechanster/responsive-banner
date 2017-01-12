@@ -16,6 +16,7 @@ html {
   width: 100%;
   bottom: 0;
   background-color: #495562;
+  background-image: linear-gradient(to bottom, rgba(73, 85, 98, 0), rgba(73, 85, 98, .9));
 }
 
 .btn {
@@ -35,7 +36,7 @@ html {
   color: #000;
 }
 
-@media only screen and (min-width:38em) {
+@media only screen and (min-width: 38em) {
 
   .banner-btn {
     position: relative;
@@ -50,7 +51,7 @@ html {
   }
 }
 
-@media only screen and (min-width:60em) {
+@media only screen and (min-width: 60em) {
 
   .banner {
     position: relative;
@@ -67,6 +68,6 @@ html {
   }
 
   .para {
-    max-height: 50em;
+    max-height: 25em;
   }
 }
